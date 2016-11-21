@@ -37,7 +37,7 @@ public class Paddle : MonoBehaviour {
     {
         Vector3 paddlePos = new Vector3(0.5f, 0.22f, 0f);
         Vector3 ballPos = ball.transform.position;
-        //print(mousePosInBlocks);
+        //print(mousePosInBlocks)thing;
         paddlePos.x = Mathf.Clamp(ballPos.x, 0.5f, 15.5f);
         this.transform.position = paddlePos;
 
