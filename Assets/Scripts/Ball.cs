@@ -30,6 +30,10 @@ public class Ball : MonoBehaviour {
             }
 
         }
+	
+	void ChangeBallColor() {
+		
+	}
         
 	
 	}
